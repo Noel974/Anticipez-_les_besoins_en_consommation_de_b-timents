@@ -3,6 +3,9 @@ labels:
   owner: "antoine"
   project: "energy-prediction"
 
+models:
+  - "energy_model:jtb3njjthwpjj5gr"
+
 include:
   - "service.py"
   - "models/"
