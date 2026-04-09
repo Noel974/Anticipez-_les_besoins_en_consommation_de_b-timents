@@ -1,0 +1,17 @@
+service: "service:EnergyService"
+labels:
+  owner: "antoine"
+  project: "energy-prediction"
+
+include:
+  - "service.py"
+  - "models/"
+  - "pyproject.toml"
+
+python:
+  packages:
+    - scikit-learn
+    - pandas
+    - pydantic
+    - joblib
+    - bentoml
